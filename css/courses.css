@@ -1,0 +1,155 @@
+.card-container{
+  /* display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  gap: 5em;
+  margin: 20px; */
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  margin-top: 50px;
+
+}
+
+.card {
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  max-width: 300px;
+  text-align: center;
+  margin: 10px;
+  /* height: 448px; */
+
+  justify-self: center;
+
+
+}
+
+.card-details {
+  margin-top: 80px;
+}
+.card2{
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  max-width: 300px;
+  text-align: center;
+  margin: 10px;
+  height: 448px;
+}
+.card3{
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  max-width: 300px;
+  text-align: center;
+  margin: 10px;
+  height: 448px;
+}
+
+.card-image {
+  width: 100%;
+  height: auto;
+}
+.card2 .card-image{
+  width: 100%;
+  height: 48%;
+}
+.card3 .card-image{
+  width: 100%;
+  height: 48%;
+}
+.card-content {
+  padding: 16px;
+}
+
+.card-title {
+  font-size: 1.5em;
+  margin: 0.5em 0;
+}
+
+.card-description {
+  font-size: 1em;
+  color: #666;
+  margin: 0.5em 0;
+}
+
+.card-button {
+  display: inline-block;
+  padding: 10px 20px;
+  margin: 1em 0;
+  background-color: #007BFF;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 4px;
+  transition: background-color 0.3s;
+}
+
+.card-button:hover {
+  background-color: #0056b3;
+}
+
+.card-details{
+  margin-top: 25px;
+  margin-right: 10%;
+  line-height: 30px;
+  text-align: justify;
+}
+
+.btn {
+  padding: 15px 30px;
+  font-size: 16px;
+  font-weight: bold;
+  color: white;
+  background: linear-gradient(90deg, #6a5acd, #ff69b4, #ff4500);
+  border: none;
+  border-radius: 50px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.btn:hover {
+  transform: scale(1.05);
+  box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
+}
+
+.btn:active {
+  transform: scale(0.95);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+
+/* section of empowering words */
+.about{
+  text-align: center;
+}
+.about h4{
+  text-align: center;
+  font-family: var(--heading-font-family);
+  text-transform: uppercase;
+  color: #3b4bbe ;
+  font-size: 20px;
+  margin: 29px;
+}
+.about h1{
+  display: block;
+  padding: 5px;
+  text-align: center;
+  font-family: var(--heading-font-family);
+  text-transform: capitalize;
+  margin-top: 10px;
+  color: rgba(42, 42, 42, 255);
+  margin-bottom: 30px;
+  font-size: 42px;
+  line-height: 3rem;
+}
+.about h1 b{
+  background: radial-gradient(circle, #a66bff, #c666ef, #dd62df, #ee61cf, #fb64bf);
+  background-clip: text;
+  color: transparent;
+}
+
+/* /section of empowerment ends */

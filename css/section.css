@@ -1,0 +1,256 @@
+.card-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 5em;
+    margin: 0px;
+ }
+ .about{
+    text-align: center;
+ }
+ .about h4{
+    text-align: center;
+    font-family: var(--heading-font-family);
+    text-transform: uppercase;
+    color: #3b4bbe ;
+    font-size: 20px;
+    margin: 29px;
+ }
+ .about h1{
+    display: block;
+    padding: 5px;
+    text-align: center;
+    font-family: var(--heading-font-family);
+    text-transform: capitalize;
+    margin-top: 10px;
+    color: rgba(42, 42, 42, 255);
+    margin-bottom: 30px;
+    font-size: 42px;
+    line-height: 3rem;
+ }
+ .about h1 b{
+    background: radial-gradient(circle, #a66bff, #c666ef, #dd62df, #ee61cf, #fb64bf);
+    background-clip: text;
+    color: transparent;
+ }
+
+ .card {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    max-width: 300px;
+    text-align: center;
+    margin: 10px;
+    height: 448px;
+ }
+ .card2{
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    max-width: 300px;
+    text-align: center;
+    margin: 10px;
+    height: 448px;
+ }
+ .card3{
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    max-width: 300px;
+    text-align: center;
+    margin: 10px;
+    height: 448px;
+ }
+ .card-image {
+    width: 100%;
+    height: auto;
+ }
+ .card2 .card-image{
+    width: 100%;
+    height: 48%;
+ }
+ .card3 .card-image{
+    width: 100%;
+    height: 48%;
+ }
+ .card-content {
+    padding: 16px;
+ }
+ .card-title {
+    font-size: 1.5em;
+    margin: 0.5em 0;
+ }
+ .card-description {
+    font-size: 1em;
+    color: #666;
+    margin: 0.5em 0;
+ }
+ .card-button {
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 1em 0;
+    background-color: #007BFF;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+ }
+ .card-button:hover {
+    background-color: #0056b3;
+ }
+ 
+.containerwhy{
+ background: radial-gradient(circle, #aaaaaa 10%, transparent 11%);
+ background-size: 1em 1em;
+ background-color: #99929256;
+ opacity: 0.85;
+ height: 750px;
+ }
+ /* Media Queries */
+ /* Extra small devices (phones, less than 600px) */
+ @media (max-width: 599px) {
+ .card-container {
+ flex-direction: column;
+ align-items: center;
+ gap: 2em;
+    }
+ .about h1 {
+ font-size: 32px;
+ line-height: 2.5rem;
+    }
+ .about h4 {
+ font-size: 18px;
+ margin: 20px;
+    }
+ .card, .card2, .card3 {
+ max-width: 100%;
+ height: auto;
+    }
+ .containerwhy {
+ height: auto;
+ padding: 2rem 1rem;
+    }
+ }
+ /* Small devices (portrait tablets and large phones, 600px and up) */
+ @media (min-width: 600px) and (max-width: 767px) {
+ .card-container {
+ flex-direction: column;
+ align-items: center;
+ gap: 3em;
+    }
+ .about h1 {
+ font-size: 36px;
+ line-height: 2.75rem;
+    }
+ .about h4 {
+ font-size: 19px;
+ margin: 24px;
+    }
+ .card, .card2, .card3 {
+ max-width: 100%;
+ height: auto;
+    }
+ .containerwhy {
+ height: auto;
+ padding: 3rem 1.5rem;
+    }
+ }
+ /* Medium devices (landscape tablets, 768px and up) */
+ @media (min-width: 768px) and (max-width: 991px) {
+ .card-container {
+   flex-direction: column;
+   align-items: center;
+   gap: 3em;
+    }
+
+ .about h1 {
+ font-size: 38px;
+ line-height: 3rem;
+    }
+ .about h4 {
+ font-size: 20px;
+ margin: 25px;
+    }
+ .card, .card2, .card3 {
+ max-width: 45%;
+ height: auto;
+    }
+ .containerwhy {
+ height: auto;
+ padding: 3.5rem 2rem;
+    }
+ }
+ /* Large devices (laptops/desktops, 992px and up) */
+ @media (min-width: 992px) {
+ .card-container {
+ justify-content: space-evenly;
+ gap: 5em;
+    }
+ .about h1 {
+ font-size: 42px;
+ line-height: 3rem;
+    }
+ .about h4 {
+ font-size: 20px;
+ margin: 29px;
+    }
+ .card, .card2, .card3 {
+ max-width: 300px;
+ height: 448px;
+    }
+ .containerwhy {
+ height: 750px;
+    }
+ }
+ @media (min-width: 768px) and (max-width: 810px) {
+    .card-container {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 4em;
+       }
+    .about h1 {
+    font-size: 38px;
+    line-height: 3rem;
+       }
+    .about h4 {
+    font-size: 20px;
+    margin: 25px;
+       }
+    .card, .card2, .card3 {
+    max-width: 45%;
+    height: auto;
+       }
+    .containerwhy {
+    height: auto;
+    padding: 3.5rem 2rem;
+       }
+    }
+    /* Media Query for iPad Air (1080px width) and iPad Mini (1024px width) in landscape mode 
+   */
+    @media (min-width: 1024px) and (max-width: 1080px) {
+      .card-container {
+         flex-direction: column;
+         align-items: center;
+         gap: 3em;
+            }
+         .about h1 {
+         font-size: 36px;
+         line-height: 2.75rem;
+            }
+         .about h4 {
+         font-size: 25px;
+         margin: 24px;
+            }
+         .card, .card2, .card3 {
+         max-width: 70%;
+         height: auto;
+            }
+         .containerwhy {
+         height: auto;
+         padding: 3rem 1.5rem;
+            }
+    }
